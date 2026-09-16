@@ -1,0 +1,60 @@
+{
+  "reference": "https://yuyinyang3y.github.io/PPI/",
+  "reference_css": "https://yuyinyang3y.github.io/PPI/static/css/index.css",
+  "faces": [
+    {
+      "family": "Noto Sans",
+      "weight": 400,
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf",
+      "file": "noto-sans-400.ttf"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": 500,
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyDPA99d.ttf",
+      "file": "noto-sans-500.ttf"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": 600,
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9d.ttf",
+      "file": "noto-sans-600.ttf"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": 700,
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf",
+      "file": "noto-sans-700.ttf"
+    },
+    {
+      "family": "Noto Sans",
+      "weight": 800,
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9BN9d.ttf",
+      "file": "noto-sans-800.ttf"
+    },
+    {
+      "family": "Google Sans",
+      "weight": 400,
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJllpyw.ttf",
+      "file": "google-sans-400.ttf"
+    },
+    {
+      "family": "Google Sans",
+      "weight": 500,
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IJllpyw.ttf",
+      "file": "google-sans-500.ttf"
+    },
+    {
+      "family": "Google Sans",
+      "weight": 600,
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzaJ5llpyw.ttf",
+      "file": "google-sans-600.ttf"
+    },
+    {
+      "family": "Google Sans",
+      "weight": 700,
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ5llpyw.ttf",
+      "file": "google-sans-700.ttf"
+    }
+  ]
+}

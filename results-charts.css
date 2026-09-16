@@ -1,0 +1,45 @@
+/* Six experiments share the same geometry, typography and series palette. */
+.experiments-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:44px 32px; margin-top:42px; }
+.experiment-chart { position:relative; min-width:0; }
+.experiment-heading { display:flex; flex-direction:column; justify-content:flex-start; align-items:flex-start; gap:10px; min-height:86px; }
+.experiment-heading h3 { font-size:1.125rem; line-height:1.35; font-weight:650; letter-spacing:-.015em; }
+.chart-control { display:flex; align-items:center; gap:9px; color:var(--muted); font-size:.875rem; line-height:1.4; }
+.chart-control select { min-height:34px; max-width:210px; padding:5px 28px 5px 10px; border:1px solid var(--line); border-radius:4px; color:var(--ink); background:#fff; font:inherit; cursor:pointer; }
+.chart-control select:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
+.chart-legend { display:flex; flex-wrap:wrap; align-content:flex-start; gap:6px 17px; min-height:53px; margin-bottom:4px; color:var(--body); font-size:.875rem; line-height:1.5; }
+.legend-entry { display:inline-flex; align-items:center; gap:7px; white-space:nowrap; }
+.legend-swatch { display:inline-block; flex-shrink:0; width:13px; height:11px; border-radius:1px; background:var(--series-color); border:1px solid rgb(18 43 64 / .16); }
+.legend-whisker { width:13px; text-align:center; color:var(--body); font-size:1.05rem; line-height:1; }
+.chart-scroll { width:100%; overflow-x:auto; overflow-y:hidden; scrollbar-width:thin; scrollbar-color:#a8bbc6 #f3f6f8; }
+.result-svg { display:block; width:100%; min-width:480px; max-width:660px; margin-inline:auto; height:auto; font-family:var(--font); }
+.result-svg text { font-family:var(--font); font-weight:400; }
+.result-svg .exp-unit,.result-svg .exp-axis-title { font-size:18px; }
+.result-svg .exp-tick,.result-svg .exp-category { font-size:18px; }
+.result-svg .exp-value { font-size:17px; font-weight:600; }
+.exp-bar { cursor:default; transition:filter .15s; }
+.exp-bar:hover,.exp-bar:focus { filter:brightness(.88); stroke:#122b40; stroke-width:1.5px; stroke-opacity:1; outline:none; }
+.experiment-chart figcaption { padding-top:12px; }
+.chart-tooltip { position:absolute; z-index:8; max-width:min(340px,calc(100% - 10px)); background:var(--ink); color:#fff; border-radius:5px; padding:9px 12px; font-size:.875rem; line-height:1.5; pointer-events:none; box-shadow:0 4px 14px rgb(18 43 64 / .15); }
+.chart-state { position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+@media(max-width:1039px) {
+  .experiments-grid { grid-template-columns:1fr; gap:40px; }
+  .experiment-heading { flex-direction:row; justify-content:space-between; align-items:center; min-height:48px; gap:20px; }
+  .chart-legend { min-height:35px; }
+}
+@media(max-width:600px) {
+  .experiments-grid { margin-top:32px; gap:34px; }
+  .experiment-heading { flex-direction:column; align-items:flex-start; min-height:0; gap:10px; margin-bottom:14px; }
+  .experiment-heading h3 { font-size:1.075rem; }
+  .chart-legend { min-height:0; margin-bottom:14px; gap:6px 14px; }
+  .chart-control { font-size:.875rem; }
+  .chart-control select { min-height:38px; }
+  .experiment-chart figcaption { padding-top:14px; }
+}
+@media print {
+  .experiments-grid { grid-template-columns:1fr; }
+  .experiment-chart { break-inside:avoid; }
+  .chart-control { display:none; }
+  .chart-scroll { overflow:visible; }
+  .result-svg { min-width:0; max-width:640px; }
+  .chart-tooltip { display:none; }
+}
