@@ -31,10 +31,9 @@ Bridge3D equips pretrained 2D Vision–Language–Action models with 3D geometry
 
 ```bibtex
 @article{li2026bridge3d,
-  title   = {Bridge3D: Enabling Vision-Language-Action Models to See and Act in 3D},
-  author  = {Li, Haoxuan and Yan, Sixu and Zhu, Lianghui and Tang, Xuanlai and Wang, Shikang and Wang, Xinggang},
-  journal = {arXiv preprint arXiv:2609.24525},
-  year    = {2026},
-  url     = {https://arxiv.org/abs/2609.24525}
+  title={Bridge3D: Enabling Vision-Language-Action Models to See and Act in 3D},
+  author={Li, Haoxuan and Yan, Sixu and Zhu, Lianghui and Tang, Xuanlai and Wang, Shikang and Wang, Xinggang},
+  journal={arXiv preprint arXiv:2609.24525},
+  year={2026}
 }
 ```
