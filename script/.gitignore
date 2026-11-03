@@ -1,0 +1,9 @@
+# Python and Jupyter caches.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environment settings.
+.env
+.env.*
+!.env.example

@@ -1,0 +1,21 @@
+# Python and Jupyter caches.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environment settings.
+.env
+.env.*
+!.env.example
+
+# Generated datasets, checkpoints, and experiment logs.
+/training_data/
+/checkpoints/
+/wandb/
+/logs/
+/runs/
+
+# Keep preprocessing notebooks alongside generated data.
+/processed_data/*
+!/processed_data/*.ipynb
